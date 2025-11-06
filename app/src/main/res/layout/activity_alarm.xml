@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Missatge de l'alarma"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora (0–23)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editMinute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minuts (0–59)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSetAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Alarma"
+        android:layout_marginTop="24dp"/>
+</LinearLayout>

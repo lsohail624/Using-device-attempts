@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Using device attempts"
+rootProject.name = "Using Device Attempts"
 include(":app")
  
